@@ -36,3 +36,12 @@
 # world = "world"
 
 # print('%s %s %d' % (hello, world, date))
+
+s = "hello"
+s.capitalize()          # Capitalize a string; returns "Hello"
+s.upper()               # Convert a string to uppercase; prints "HELLO"
+print(s.rjust(44) )             # Right-justify a string, padding with spaces; returns "  hello"
+print(s.center(23) )            # Center a string, padding with spaces; returns " hello "
+print(s.replace('l', 'ell')) # Replace all instances of one substring with another;
+                        # returns "he(ell)(ell)o"
+'  world '.strip()      # Strip leading and trailing whitespace; returns "world"
