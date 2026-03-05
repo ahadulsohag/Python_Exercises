@@ -13,3 +13,6 @@ def set_global_x(num):
 
 print(set_x(43))
 print(set_global_x(6))
+print("Hello, World", end="!y",)
+print("hi")
+print("hi")
