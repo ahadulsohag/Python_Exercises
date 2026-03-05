@@ -22,9 +22,17 @@
 
 # print(y)
 
-x = 1_0
-print(x)
-print(type(x))
-print(True+True + True) # Returns 2
-print(True * 8  )  # Returns 8
-print(False - 5)   # Returns -5
+# x = 1_0
+# print(x)
+# print(type(x))
+# print(True+True + True) # Returns 2
+# print(True * 8  )  # Returns 8
+# print(False - 5)   # Returns -5
+
+# i = "Hello " "World"
+# print(i)
+# hello = "hello "
+# date = 34
+# world = "world"
+
+# print('%s %s %d' % (hello, world, date))
