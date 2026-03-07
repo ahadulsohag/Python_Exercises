@@ -15,3 +15,10 @@ bid = "{0:b}".format(43)
 print(bid)
 print(bin_43)
 print('{:,}'.format(1234567890))
+
+for align, text in zip('<^>', ['left', 'center', 'right']):
+    '{0:{fill}{align}16}'.format(text, fill=align, align=align)
+  # Returns:
+  # 'left<<<<<<<<<<<<'
+  # '^^^^^center^^^^^'
+  # '>>>>>>>>>>>right'
